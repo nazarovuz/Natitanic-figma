@@ -1,0 +1,91 @@
+header{
+    padding: 30px 0px 140px;
+    height: 100vh;
+    background-color: #000;
+   background: url('./Gleb.png' )no-repeat; margin-bottom: 151px;
+   background-position: right 0;
+  }
+
+  .header-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:200px ;
+    align-items: center;
+  }
+
+  .nav-links{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  .nav-links a{
+    font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+/* text */
+
+color: #E4E4E4;
+  }
+
+  .nav-links a:hover{
+    color: red;
+  }
+
+  .header-content{
+    width: 450px;
+  }
+
+  .header-content h3{
+    font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+display: flex;
+align-items: center;
+
+/* text */
+
+color: #E4E4E4;
+    
+  }
+
+  .header-content h1{
+    font-weight: 700;
+font-size: 72px;
+line-height: 82px;
+display: flex;
+align-items: center;
+color: #E4E4E4;
+margin-bottom: 25px;
+
+  }
+
+  .header-content p{
+    font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #E4E4E4;
+margin-bottom: 25px;
+  }
+button{
+
+/* orange */
+
+background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+border-radius: 6px;
+padding: 16px 40px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+ color: #000;
+ border: 1px solid transparent;
+ margin-bottom: 25px;
+  }
